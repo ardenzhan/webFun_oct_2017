@@ -6,15 +6,15 @@ var students = [
     {first_name : 'KB', last_name : 'Tonel'}
 ]
 
-function printArray1(arr){
+function printArray(arr){
     for (var x in arr){
         console.log(arr[x].first_name + " " + arr[x].last_name);
     }
 }
-printArray1(students);
+printArray(students);
 
 
-
+console.log();
 // PART 2
 var users = {
     'Students': [ 
@@ -29,16 +29,18 @@ var users = {
     ]
 }
 
-
-// function printObject(obj){
-//     var propertyNames = Object.keys(obj);
-//     for (var x in obj){
-//         var prop = eval(x);
-//         console.log(obj.prop);
-//         // for (var x = 0; x < obj.propertyNames[x]){
-//         //     console.log(y);
-//         // }
-//     }
-// }
-
-// printObject(users);
+function printObject(obj){
+    // in is for objects
+    // of is for array
+    for (var title in obj){
+        console.log(title);
+        var count = 0;
+        for (var name of obj[title]){
+            console.log((obj[title].indexOf(name) + 1) + " - " 
+                + name.first_name.toUpperCase() + " " 
+                + name.last_name.toUpperCase() + " - " 
+                + (name.first_name.length + name.last_name.length));
+        }
+    }
+}
+printObject(users);
