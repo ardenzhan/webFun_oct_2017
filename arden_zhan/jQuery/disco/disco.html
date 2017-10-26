@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="description" content="Disco grid using jQuery">
+   <!-- https://codyw9524.github.io/jquery_disco/ -->
+   <title>jQuery Disco</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+
+
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script>
+       $(document).ready(function(){
+
+           $('td').hover(function(){
+               var active = true;
+               $('td').css('background-color', 'yellow');
+           }, function(){$('td').css('background-color', 'red');});
+       });
+   </script>
+</head>
+
+<body>
+   <table>
+       <tbody>
+           <tr>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+           </tr>
+           <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+       </tbody>
+   </table>
+
+   <button type="button">Reset</button>
+   <button type="button">Disco On/Off</button>
+</body>
+</html>

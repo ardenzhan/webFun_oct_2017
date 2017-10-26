@@ -1,0 +1,20 @@
+/* Disco */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 1em;
+	font-family: Arial;
+}
+table{
+	border-spacing: 0.5em;
+}
+td{
+	background-color: rgb(255, 255, 255);
+	padding: 2em 2em;
+	border: 0.1em solid black;
+}
+button{
+	margin: 0.5em;
+}
