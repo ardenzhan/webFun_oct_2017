@@ -1,0 +1,40 @@
+/* jQuery Functions */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+    font-size: 1em;
+}
+
+div{
+    padding: 0.5em;
+    margin: 5px;
+    text-align: center;
+    display: block;
+    border-top: 2px solid black;
+}
+
+h1{
+    background: lightskyblue;
+    text-align: center;
+    display: block;
+    padding: 1em;
+}
+
+button{
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.backgroundRed{
+    background: red;
+}
+
+.before_after p, .before_after b{
+    display: block;
+}
+
+.data span{
+    display: block;
+}
