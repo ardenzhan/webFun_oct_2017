@@ -1,0 +1,65 @@
+/* Disappearing Ninja */
+*{
+	margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body{
+    font-size: 1em;
+}
+.wrapper{
+    text-align: center;
+}
+
+h1{
+    background: #4CAF50;
+    text-align: center;
+    display: block;
+    padding: 1em;
+    box-shadow: 0px 1px 1px black;
+}
+
+table{
+    padding-top: 16px;
+    width: 500px;
+    margin: 0 auto;
+    table-layout: fixed;
+    empty-cells: show;
+}
+img{
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+tr{
+    height: 120px;
+    width: 100%;
+}
+table td{
+    width: 100px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+button{
+    color: black;
+    padding: 6px 12px 8px 12px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    background: #4CAF50;
+    box-shadow: 2px 2px 2px rgb(59, 59, 59);
+    border: 1px solid rgb(59, 59, 59);
+    outline: none;
+    border-radius: 5px;
+}
+button:hover{
+    background: #3e8e41;
+}
+button:active{
+    outline: none;
+    background: #3e8e41;
+    box-shadow: 2px 2px 2px black;
+    transform: translateY(1px);
+}
