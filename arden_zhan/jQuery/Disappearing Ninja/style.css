@@ -32,6 +32,10 @@ img{
     border: 2px solid black;
     display: inline-block;
 }
+img:hover{
+    border: 2px solid #3e8e41;
+    box-shadow: 0 0 8px black;
+}
 tr{
     height: 120px;
     width: 100%;

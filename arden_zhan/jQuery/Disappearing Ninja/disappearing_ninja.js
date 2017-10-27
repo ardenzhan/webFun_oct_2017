@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
     $('img').click(function(){
-        $(this).hide();
+        $(this).fadeOut();
     })
 
     $('button').click(function(){
-        $('img').show();
+        $('img').fadeIn();
     })
     
 }
