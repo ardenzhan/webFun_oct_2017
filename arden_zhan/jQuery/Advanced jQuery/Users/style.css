@@ -1,0 +1,44 @@
+/* Users */
+*{
+	margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+body{
+    font-size: 1em;
+}
+.wrapper{
+    padding: 1em;
+    margin: 0 auto;
+}
+
+table{
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+thead{
+    font-weight: bold;
+}
+td{
+    padding-right: 50px;
+}
+
+.form_wrapper{
+    width: 400px;
+}
+
+h1{
+    border-bottom: 2px solid gray;
+}
+form{
+    padding: 10px;
+    text-align: right;
+}
+li{
+    list-style: none;
+    margin-top: 8px;
+}
+button{
+    padding: 2px 4px;
+    margin-top: 30px;
+}
