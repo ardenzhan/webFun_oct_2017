@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact Card Advanced jQuery assignment">
+    <title>Contact Card</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="contact_card.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+            <form action="process.php" method="post">
+                <ul>
+                    <li>First Name: <input class="firstname" type="text" name="firstname" value="First"></li>
+                    <li>Last Name: <input class="lastname" type="text" name="lastname" value="Last"></li>
+                    <li>Description:</li>
+                    <li><textarea class="description" name="description" rows="5" cols="30">Enter Description</textarea></li>
+                </ul>
+                <button type="submit">Add User</button>
+            </form>
+
+        <div class="contacts_body">
+        </div>
+    </div>
+</body>
+</html>
+

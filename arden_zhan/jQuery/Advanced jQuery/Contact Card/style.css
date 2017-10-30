@@ -1,0 +1,38 @@
+/* Contact Card */
+*{
+	margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+body{
+    font-size: 1em;
+}
+.wrapper{
+    padding: 1em;
+    margin: 0 auto;
+}
+
+form{
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+}
+
+.contacts_body{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+.contacts_body div{
+    border: 2px solid black;
+    padding: 5px;
+    height: 100px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
