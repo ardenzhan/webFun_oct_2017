@@ -1,0 +1,13 @@
+/* Pokemon */
+*{
+	margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+body{
+    font-size: 1em;
+}
+.wrapper{
+    padding: 1em;
+    margin: 0 auto;
+}

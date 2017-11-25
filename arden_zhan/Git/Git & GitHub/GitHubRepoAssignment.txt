@@ -1,0 +1,14 @@
+Went on github and created a new Repo called GitHubRepoAssignment
+
+In git bash:
+cd ~/desktop
+mkdir GitHubRepoAssignment
+git init
+touch README.md
+start README.md
+git status
+
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ardenzhan/GitHubRepoAssignment.git
+git push -u origin master

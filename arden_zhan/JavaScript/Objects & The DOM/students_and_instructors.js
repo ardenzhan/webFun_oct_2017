@@ -34,7 +34,6 @@ function printObject(obj){
     // of is for array
     for (var title in obj){
         console.log(title);
-        var count = 0;
         for (var name of obj[title]){
             console.log((obj[title].indexOf(name) + 1) + " - " 
                 + name.first_name.toUpperCase() + " " 

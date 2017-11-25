@@ -1,0 +1,16 @@
+Serviceable URLs
+Pages, Images
+Videos
+    <video src="" controls></video>
+
+CDN (Content Distribution/Delivery Network)
+    - URL that holds useful code
+    - jquery.com/jquery.js shows code for jquery
+
+Request Response
+GET for every (url) link and for opening webpage
+
+
+
+Ajax
+Say you want to create a page that can make a  remote HTTP request (when a button is clicked, when a form is submitted, or when someone pressed a key) and want to have your app use the HTTP response from that request to update part of your page.  You can do this using Ajax.  You do NOT always have to submit a FORM to do an Ajax call but as we often have to send information to a specific URL to retrieve certain information, we're introducing the FORM concept as it would make it easier for you to group your data in preparation for making a new HTTP request.
